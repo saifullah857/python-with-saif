@@ -137,10 +137,10 @@ python3 --version
 
 ```bash
 # 1. Clone this repository
-git clone https://github.com/your-username/python-with-saif.git
+git clone https://github.com/saifullah857/python-with-saif
 
 # 2. Open in VS Code
-cd python-with-saif
+cd python
 code .
 
 # 3. Create a test file and run it
