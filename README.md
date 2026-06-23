@@ -237,21 +237,9 @@ print(greet("Saif"))
 
 ---
 
-## 🛠️ Useful Resources
 
-<div align="center">
 
-| Resource | Link |
-|---------|------|
-| 📖 Official Python Docs | [docs.python.org](https://docs.python.org) |
-| 🎥 Python Tutorial (YouTube) | [youtube.com](https://www.youtube.com/results?search_query=python+tutorial+beginners) |
-| 💻 VS Code Docs | [code.visualstudio.com/docs](https://code.visualstudio.com/docs) |
-| 🔍 Python Cheat Sheet | [pythoncheatsheet.org](https://www.pythoncheatsheet.org) |
-| 🧪 Practice Problems | [leetcode.com](https://leetcode.com) |
 
-</div>
-
----
 
 ## 🤝 Contributing / Issues
 
@@ -266,7 +254,7 @@ Found a typo in the notes? Want to suggest a topic?
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-your--username-181717?style=for-the-badge&logo=github)](https://github.com/your-username)
+[![GitHub](https://img.shields.io/badge/GitHub-your--username-181717?style=for-the-badge&logo=github)](https://github.com/saifullah857)
 [![Email](https://img.shields.io/badge/Email-your%40email.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
 
 </div>
