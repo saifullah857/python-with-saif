@@ -1,72 +1,76 @@
-# Assign a value to a variable
+# # Assign a value to a variable
 
-number = 20
+# number = 20
 
-print("Number =", number)
-
-
-
-# Increase a number
-number = 15
-
-print("Before Addition =", number)
-
-number += 10
-
-print("After Adding 10 =", number)  
-
-
-# Subtract marks
-
-marks = 90
-
-print("Original Marks =", marks)
-
-marks -= 10
-
-print("Marks After Deduction =", marks)
-
-
-# Double a number
-
-number = 12
-
-print("Original Number =", number)
-
-number *= 2
-
-print("After Multiplication =", number)
-
-
-# Divide a number
-
-number = 100
-
-print("Original Number =", number)
-
-number /= 5
-
-print("After Division =", number)
+# print("Number =", number)
 
 
 
-# Find remainder
+# # Increase a number
+# number = 15
 
-number = 25
+# print("Before Addition =", number)
 
-print("Original Number =", number)
+# number += 10
 
-number %= 4
-
-print("Remainder =", number)
+# print("After Adding 10 =", number)  
 
 
-# Square a number
+# # Subtract marks
 
-number = 5
+# marks = 90
 
-print("Original Number =", number)
+# print("Original Marks =", marks)
 
-number **= 2
+# marks -= 10
 
-print("Square =", number)
+# print("Marks After Deduction =", marks)
+
+
+# # Double a number
+
+# number = 12
+
+# print("Original Number =", number)
+
+# number *= 2
+
+# print("After Multiplication =", number)
+
+
+# # Divide a number
+
+# number = 100
+
+# print("Original Number =", number)
+
+# number /= 5
+
+# print("After Division =", number)
+
+
+
+# # Find remainder
+
+# number = 25
+
+# print("Original Number =", number)
+
+# number %= 4
+
+# print("Remainder =", number)
+
+
+# # Square a number
+
+# number = 5
+
+# print("Original Number =", number)
+
+# number **= 2
+
+# print("Square =", number)
+
+
+
+input("Kindaly Enter your name")
