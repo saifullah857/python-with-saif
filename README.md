@@ -1,10 +1,12 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,12,19,24&height=260&section=header&text=Python%20With%20Saif&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=A%20Day-by-Day%20Python%20Learning%20%26%20Practice%20Vault&descAlignY=58&descSize=18&descColor=c9d1d9" />
+<!-- Header Banner -->
+<img width="100%" alt="Python With Saif banner" src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3C72,100:2A5298&height=220&section=header&text=Python%20With%20Saif&fontSize=56&fontColor=ffffff&fontAlignY=42&desc=A%20Day-by-Day%20Python%20Learning%20%26%20Practice%20Vault&descAlignY=62&descSize=18&descColor=e6edf3" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&multiline=false&width=800&lines=%F0%9F%90%8D+Learning+Python+one+day+at+a+time;%F0%9F%A7%A0+Fundamentals+%E2%86%92+Data+Structures+%E2%86%92+Interview+Prep;%F0%9F%92%A1+Clean+Code+%2B+Commented+Examples;%F0%9F%9A%80+Built+for+Practice%2C+Shared+for+Learning" alt="Typing SVG" />
+<!-- Typing SVG -->
+<img alt="typing animation" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=800&lines=%F0%9F%90%8D+Learning+Python+one+day+at+a+time;%F0%9F%A7%A0+Fundamentals+%E2%86%92+Data+Structures+%E2%86%92+Interview+Prep;%F0%9F%92%A1+Clean+Code+%2B+Commented+Examples;%F0%9F%9A%80+Built+for+Practice%2C+Shared+for+Learning" />
 
-<br/>
+<br/><br/>
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
@@ -16,15 +18,33 @@
 [![Forks](https://img.shields.io/github/forks/saifullah857/python-with-saif?style=for-the-badge&color=blueviolet&labelColor=0d1117)](https://github.com/saifullah857/python-with-saif/network/members)
 [![Last Commit](https://img.shields.io/github/last-commit/saifullah857/python-with-saif?style=for-the-badge&color=orange&labelColor=0d1117)](https://github.com/saifullah857/python-with-saif/commits/main)
 
+<img width="60%" alt="divider" src="https://capsule-render.vercel.app/api?type=rect&color=0:1E3C72,100:2A5298&height=3&section=header" />
+
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<br/>
 
 ## 📖 About
 
-**Python With Saif** is a personal learning repository documenting a structured journey through core Python — from `print()` statements to interview-style problem solving. Every file is written as a **hands-on practice script**, most with inline comments explaining *why*, not just *what*. It also bundles the **lecture slides** used alongside the code, making this repo a compact, self-contained study kit.
+**Python With Saif** is a personal learning repository documenting a structured journey through core Python — from `print()` statements to interview-style problem solving. Every file is a **hands-on practice script**, most with inline comments explaining *why*, not just *what*. It also bundles the **lecture slides** used alongside the code, making this repo a compact, self-contained study kit.
 
 > 💡 Think of it as a lab notebook: small, focused scripts you can run, break, and rebuild to actually understand the concept — not just read about it.
+
+<br/>
+
+## 📚 Table of Contents
+
+- [About](#-about)
+- [Repository Structure](#️-repository-structure)
+- [File-by-File Guide](#-file-by-file-guide)
+- [Topics Covered](#-topics-covered)
+- [Getting Started](#-getting-started)
+- [VS Code Setup](#️-recommended-vs-code-setup)
+- [Learning Progress](#-learning-progress)
+- [Tech Stack](#️-tech-stack)
+- [Contributing](#-contributing)
+- [Author](#-author)
+- [License](#-license)
 
 <br/>
 
@@ -33,46 +53,116 @@
 ```
 python-with-saif/
 │
-├── 📘 Fundamentals
-│   ├── day_01_output.py                 # print(), basic output formatting
-│   ├── day_02_variables.py              # Variables & data types
-│   ├── day_03_type_conversion.py        # Implicit / explicit type casting
-│   ├── day_04_Arthamatic_operators.py   # Arithmetic operators
-│   ├── day_05_Assignment_operators.py   # Assignment operators
-│   ├── day_05_Relational_operators.py   # Relational / comparison operators
-│   ├── day_06_Assignment_operators.py   # Assignment operators (extended)
-│   ├── day_4.py, day2.py, day3.py       # Early practice notebooks
-│   └── 01.py, 02.py                     # Extra warm-up drills
+├── 📘 fundamentals/                          (day_*.py)
+│   ├── day_01_output.py
+│   ├── day_02_variables.py
+│   ├── day_03_type_conversion.py
+│   ├── day_04_Arthamatic_operators.py
+│   ├── day_05_Assignment_operators.py
+│   ├── day_05_Relational_operators.py
+│   └── day_06_Assignment_operators.py
 │
-├── 🔁 Control Flow
-│   ├── ternary.py                       # Ternary / conditional expressions
-│   ├── while_loop.py                    # while loops
-│   ├── break.py                         # break statement
-│   ├── continue.py                      # continue statement
-│   └── demo.py                          # Nested conditionals & grading logic
+├── 🔁 topics/                                 (concept-focused drills)
+│   ├── topic_ternary_operator.py
+│   ├── topic_while_loop.py
+│   ├── topic_break_statement.py
+│   ├── topic_continue_statement.py
+│   ├── topic_lists.py
+│   ├── topic_dictionaries.py
+│   ├── topic_strings.py
+│   └── topic_strings_methods.py
 │
-├── 🧱 Data Structures
-│   ├── list.py                          # List slicing, append, iteration
-│   ├── dict.py                          # Dictionaries & key access
-│   ├── string.py                        # String operations
-│   └── strin2.py                        # String methods, deep dive
+├── 🛠️ practice/                               (applied exercises)
+│   ├── practice_01_grading_system.py
+│   ├── practice_02_misc_exercises.py
+│   ├── practice_03_first_program.py
+│   ├── practice_04_conditionals.py
+│   ├── practice_05_equality_operators.py
+│   ├── practice_06_unit_conversion.py
+│   ├── practice_07_nested_conditionals.py
+│   └── practice_08_data_analysis.py
 │
-├── 🛠️ Applied Practice
-│   ├── calculator.py                    # Simple arithmetic calculator (CLI)
-│   ├── mypython.py                      # Unit conversion & mini logic drills
-│   ├── assignment2.py                   # Assignment: digit extraction, etc.
-│   └── test.py                          # Data analysis on lists (appointments)
+├── 🚀 projects/
+│   └── project_calculator.py                 # CLI arithmetic calculator
 │
-├── 🎯 Interview Preparation
-│   ├── 100_interview.py                 # 100 classic coding interview problems
-│   └── intervivew.py                    # String reversal & algorithm practice
+├── 📝 assignments/
+│   └── assignment_02_digit_extraction.py
+│
+├── 🎯 interview-prep/
+│   ├── interview_100_problems.py              # 100 classic coding problems
+│   └── interview_string_algorithms.py         # String reversal & algorithms
 │
 ├── 🎓 lectures_ppt_slides/
-│   ├── python -day-01.pptx              # Day 1 lecture deck
-│   └── Python_Fundamentals_Part2_ApnaCollege.pptx  # Fundamentals Part 2 deck
+│   ├── python -day-01.pptx
+│   └── Python_Fundamentals_Part2_ApnaCollege.pptx
 │
 └── README.md
 ```
+
+> 📌 Files are shown in logical folders above for clarity — in the actual repo they currently live flat in the root directory, named with the same prefixes (`day_`, `topic_`, `practice_`, `project_`, `assignment_`, `interview_`) so you can sort and filter them instantly in VS Code's file explorer.
+
+<br/>
+
+## 📄 File-by-File Guide
+
+<details>
+<summary><strong>📘 Fundamentals</strong> — click to expand</summary>
+
+| File | What it teaches |
+|---|---|
+| `day_01_output.py` | `print()` and basic output formatting |
+| `day_02_variables.py` | Variables and Python's core data types |
+| `day_03_type_conversion.py` | Implicit vs. explicit type casting |
+| `day_04_Arthamatic_operators.py` | `+ - * / // % **` and operator precedence |
+| `day_05_Assignment_operators.py` | `= += -= *= /=` shorthand assignment |
+| `day_05_Relational_operators.py` | `== != > < >= <=` comparisons |
+| `day_06_Assignment_operators.py` | Extended assignment operator practice |
+
+</details>
+
+<details>
+<summary><strong>🔁 Concept Topics</strong> — click to expand</summary>
+
+| File | What it teaches |
+|---|---|
+| `topic_ternary_operator.py` | One-line conditional expressions |
+| `topic_while_loop.py` | `while` loops and loop control |
+| `topic_break_statement.py` | Exiting loops early with `break` |
+| `topic_continue_statement.py` | Skipping iterations with `continue` |
+| `topic_lists.py` | List indexing, slicing, and mutation |
+| `topic_dictionaries.py` | Key-value access with dictionaries |
+| `topic_strings.py` | Core string operations |
+| `topic_strings_methods.py` | Built-in string methods, deep dive |
+
+</details>
+
+<details>
+<summary><strong>🛠️ Applied Practice</strong> — click to expand</summary>
+
+| File | What it teaches |
+|---|---|
+| `practice_01_grading_system.py` | Percentage & grade calculation logic |
+| `practice_02_misc_exercises.py` | Mixed drills: string counting, patterns, dicts |
+| `practice_03_first_program.py` | The very first "Hello, World!"-style scripts |
+| `practice_04_conditionals.py` | Voting age & salary-tax conditional logic |
+| `practice_05_equality_operators.py` | Equality checks across types |
+| `practice_06_unit_conversion.py` | Fahrenheit ↔ Celsius conversion |
+| `practice_07_nested_conditionals.py` | Nested `if` / grading logic |
+| `practice_08_data_analysis.py` | Analyzing a list of appointment times |
+
+</details>
+
+<details>
+<summary><strong>🎯 Interview Prep & Projects</strong> — click to expand</summary>
+
+| File | What it teaches |
+|---|---|
+| `interview_100_problems.py` | 100 classic coding interview questions |
+| `interview_string_algorithms.py` | String reversal & algorithmic thinking |
+| `project_calculator.py` | A small CLI calculator (+ − × ÷ %) |
+| `assignment_02_digit_extraction.py` | Extracting digits from a number |
+
+</details>
 
 <br/>
 
@@ -83,7 +173,7 @@ python-with-saif/
 | Category | Concepts |
 |---|---|
 | 🔤 **Basics** | Variables, data types, type conversion, `print()` formatting |
-| ➕ **Operators** | Arithmetic, assignment, relational operators |
+| ➕ **Operators** | Arithmetic, assignment, relational, equality operators |
 | 🔀 **Control Flow** | `if` / `else`, ternary expressions, `while` loops, `break`, `continue` |
 | 📦 **Data Structures** | Lists (slicing & indexing), dictionaries, strings & string methods |
 | 🧮 **Applied Logic** | Calculators, unit converters, digit manipulation, grading systems |
@@ -107,6 +197,8 @@ cd python-with-saif
 
 # 3. Run any script directly
 python day_01_output.py
+python topic_while_loop.py
+python interview_100_problems.py
 ```
 
 > No external dependencies required — every script runs with Python's standard library, right out of the box. 🐍
@@ -130,6 +222,8 @@ This repo is best explored in **Visual Studio Code**:
   "editor.formatOnSave": true
 }
 ```
+
+💡 **Tip:** With the new `day_ / topic_ / practice_ / interview_` file prefixes, typing `Ctrl+P` (or `Cmd+P`) and searching a prefix instantly filters related files — e.g. type `topic_` to jump between every concept drill.
 
 <br/>
 
@@ -166,7 +260,7 @@ This is primarily a personal learning log, but suggestions and corrections are a
 
 1. Fork the repository
 2. Create a branch: `git checkout -b fix/typo-in-loops`
-3. Commit your changes: `git commit -m "Fix comment in while_loop.py"`
+3. Commit your changes: `git commit -m "Fix comment in topic_while_loop.py"`
 4. Push and open a Pull Request
 
 <br/>
@@ -198,6 +292,6 @@ This project is open-sourced under the **MIT License** — free to use for your 
 
 ⭐ **If this repo helped you learn Python, consider giving it a star!** ⭐
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,12,19,24&height=120&section=footer" />
+<img width="100%" alt="footer" src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3C72,100:2A5298&height=120&section=footer" />
 
 </div>
