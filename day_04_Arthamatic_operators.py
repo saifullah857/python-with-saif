@@ -16,6 +16,7 @@ print("Addition =", result)
 
 # Remaining salary after expenses
 
+
 salary = 60000
 expenses = 18500
 
