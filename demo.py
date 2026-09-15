@@ -386,13 +386,16 @@ b = 10
 #     print("invalid country")
 
 
-num = int(input("Enter any num = "))
+# num = int(input("Enter any num = "))
 
-for i in range(num):
-    print(i," - pakistan ")
+# for i in range(num):
+#     print(i," - pakistan ")
     
-    
-    
+import numpy as np
+
+timings = np.array(["11:00" ,"11:00" , "12:00" , "12:00" "1:00"])  
+unique = np.unique(timings)
+print(unique)
 
 
 

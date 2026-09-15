@@ -1,0 +1,3 @@
+new text will replace the old textthis is a sample file created by using a x mode in file i / o 
+ this text not truncate the existing text rather 
+it add at the end of existing text

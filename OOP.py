@@ -1,5 +1,24 @@
-# Normal -->   Procedural programing (fnx)  --> OOP (classes , objects)
+# Normal -->   Procedural programing (fnx)  --> OOP (classes , objects) => task realworld data => print() => loops  => fnx 
+# data structre -> 
+# 101 = {
+#     "name" :"xyz" ,
+#     "age" : 22,
+#     "course" : "python",
+#     "timing" : "10 - 12",
+#     "course_duration" : "3 months" ,
+#     "clg" : "xyz"
+# }
+# 102 = {
+#     "name" :"xyz" ,
+#     "age" : 22,
+#     "course" : "python",
+#     "timing" : "10 - 12",
+#     "course_duration" : "3 months" ,
+#     "clg" : "xyz"
+# }
+# Object oriented programing 
 
+# sum(a , b)
 
 # class Student:
 #     course = "python"
@@ -23,9 +42,9 @@
 
 # ----------------------------------------------------------------------------------------------
 
-#### CONSTRUCTER IN PYTHON ###
+#### CONSTRUCTER IN OOP ###
 
-# __init__ Method => object ko intilize krta hai => called everytime when we create object of class
+# __init__ (self) => Method => object ko intilize krta hai => called everytime when we create object of class
 
 # class Student:
 #     def __init__(self): # it can be abc => it store current instance of class => refrence of current obj
@@ -408,6 +427,27 @@ def make_it_speak(entity):
 
 for e in [Dog(), Cat(), Robot()]:
     make_it_speak(e)
+    
+    
+    
+    
+    
+class Student:
+    # class attr
+    course = "python"
+    timing = "10 - 12"
+    course_duration = "3 months" 
+    clg = "xyz"
+    
+    
+Mustafa = Student()
+print(f"std course = {Mustafa.course} ")
+print(f"std timing = {Mustafa.timing} ")
+print(f"std duration = {Mustafa.course_duration} ")
+print(f"std clg = {Mustafa.clg} ")
+Asad = Student()
+
+    
 
 
 
